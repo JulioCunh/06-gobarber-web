@@ -26,7 +26,7 @@
     ],
     "rules": {
       "react-hooks/rules-of-hooks": "error",
-      "react-hooks/exhaustive-deps": "warn",
+      "react-hooks/exhaustive-deps": "off",
       "react/jsx-props-no-spreading": "off",
       "react/prop-types": "off",
       "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
@@ -36,6 +36,7 @@
       "@typescript-eslint/ban-types": "off",
       "@typescript-eslint/no-unused-vars": "off",
       "@typescript-eslint/no-explicit-any": "off",
+
       "import/extensions": [
         "error",
         "ignorePackages",

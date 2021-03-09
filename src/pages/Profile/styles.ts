@@ -27,7 +27,6 @@ export const Content = styled.div`
   justify-content: center;
   margin: -176px auto 0;
   width: 100%;
-
   form {
     margin: 80px 0;
     width: 340px;
@@ -40,7 +39,6 @@ export const Content = styled.div`
       text-align: left;
     }
   }
-
   a {
     color: #f4ede8;
     display: block;
@@ -67,14 +65,13 @@ export const AvatarInput = styled.div`
     position: absolute;
     width: 48px;
     height: 48px;
-    color: #ff9000;
+    background: #ff9000;
     border-radius: 50%;
     right: 0;
     bottom: 0;
     border: 0;
     cursor: pointer;
     transition: background-color 0.2s;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -88,6 +85,7 @@ export const AvatarInput = styled.div`
       height: 20px;
       color: #312e38;
     }
+
     &:hover {
       background: ${shade(0.2, '#ff9000')};
     }

@@ -6,7 +6,7 @@ import * as Yup from 'yup';
 import { Link } from 'react-router-dom';
 
 import { useToast } from '../../hooks/toast';
-import getValidationErrors from '../../utils/getValidationErros';
+import getValidationErrors from '../../utils/getValidationErrors';
 
 import logoImg from '../../assets/logo.svg';
 
